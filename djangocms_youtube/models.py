@@ -63,7 +63,7 @@ class Youtube(CMSPlugin):
     )
 
     video_data = JSONField(
-        verbose_name=_('YouTube Data'), 
+        verbose_name=_('YouTube Data'),
         help_text=_('For advanced users only — please do not edit '
                     'this data unless you know what you are doing.')
     )
